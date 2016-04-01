@@ -4,7 +4,7 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.all
+    4100.times{ @posts = Post.all.to_a }
   end
 
   # GET /posts/1
